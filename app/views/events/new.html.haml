@@ -1,0 +1,14 @@
+#events_new.row-fluid
+  .span12
+    %h2
+      Add as many participants as you'd like and click
+      %em Notify Participants.
+.row-fluid
+  .span12
+    %form.form-inline#participants{ :method => 'post', :action => '/notify-participants' }
+      %fieldset.control-group
+        %a.icon.icon-plus-sign.add-participant{ :href => 'javascript: void(0);', :title => 'Add Additional Participant' }
+          Add Additional Participant
+      %fieldset.control-group
+        %input.btn.btn-success{ :type => 'submit', :value => 'Notify Participants' }
+
