@@ -3,7 +3,6 @@ participant_template = """
         <input class='hidden-input' type='hidden' name='participant[{{timestamp}}]' />
         <input required placeholder='Name*' class='name' type="text" />
         <input required placeholder='Email Address*' class='email-address' type="text" />
-        <input placeholder='Phone Number' class='phone-number' type="text" />
         <a href='javascript: void(0);' class='icon icon-remove-sign remove-participant' title='Remove Participant'></a>
     </fieldset>
 """
